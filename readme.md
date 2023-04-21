@@ -1,11 +1,11 @@
 # DTO, mapper to DTO, and CRUD operations on H2 database  
 
-**sources**
-modelmapper : https://www.baeldung.com/java-modelmapper  
-modelmapper reference :https://modelmapper.org/user-manual/property-mapping/  
-jpa named queries : https://www.baeldung.com/spring-data-derived-queries  
+**Sources**  
+- modelmapper : https://www.baeldung.com/java-modelmapper  
+- modelmapper reference :https://modelmapper.org/user-manual/property-mapping/  
+- jpa named queries : https://www.baeldung.com/spring-data-derived-queries  
 
-**tips and tricks**  
+**Tips and tricks**  
 - use @Builder Lombock annotation if you want to generate builders
 - use <artifactId>modelmapper</artifactId> to map object between dto and other classes, without builders needed
 - don't write builders by hand, it s tidious ... 
