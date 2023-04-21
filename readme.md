@@ -1,20 +1,20 @@
 # DTO, mapper to DTO, and CRUD operations on H2 database  
 
-**Sources**  
+## Sources  
 - modelmapper : https://www.baeldung.com/java-modelmapper  
 - modelmapper reference :https://modelmapper.org/user-manual/property-mapping/  
 - jpa named queries : https://www.baeldung.com/spring-data-derived-queries  
 
-**Tips and tricks**  
+## Tips and tricks  
 - use @Builder Lombock annotation if you want to generate builders
 - use <artifactId>modelmapper</artifactId> to map object between dto and other classes, without builders needed
 - don't write builders by hand, it s tidious ... 
 
-**Connect to H2 database using browser**  
+# Connect to H2 database using browser  
 http://localhost:8080/h2  
 user/pass : sa/sa  
 
-**CURL**  
+# CURL  
 curl -v -X POST -H "[content type]" -d "[post data]" [options] [URL]  
 - -X: the parameter specifies which HTTP request method will be used when communicating with the server
 - -H: the content-type header indicates the data type in the request body
